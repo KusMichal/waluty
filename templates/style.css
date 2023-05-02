@@ -1,0 +1,12 @@
+body {
+    text-align: center;
+    background: hsl(0, 0%, 0%);
+    color: rgb(12, 230, 211);
+}
+h1{font-size: 50px;
+color: rgb(14, 233, 43);}
+select{font-size: 30px;}
+label{font-size: 30px;
+}
+input{font-size: 30px;
+width: 180px;}
