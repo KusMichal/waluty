@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <title>Kalkulator Walut</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/static/style.css">
 </head>
 <body>
     <h1>Kalkulator</h1>
     <form method="POST" action="">
         <label for="currency">Wybierz walutę:</label>
     
-        <select name="currency" id="code">
+        <select name="currency" id="currency">
         <option value="dolar amerykański">USD</option>
         <option value="dolar austarlyjski">AUD</option>
         <option value="dolar kanadyjski">CAD</option>
@@ -28,7 +28,7 @@
     <input name="number" value="0"></input>
     <input type="submit" value="Przelicz">
     </form>
-    <h2>Kwota do zapłaty: {{cost}}PLN</h2>
+    <h2>Kwota do zapłaty: {{ask}}  PLN</h2>
     
 </body>
 </html>
